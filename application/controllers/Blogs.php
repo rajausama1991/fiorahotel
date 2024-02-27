@@ -37,6 +37,7 @@ class Blogs extends CI_Controller
         $this->load->view('template2023', $var);
     }
 
+    
     function get_page_setting($slug)
     {
 
